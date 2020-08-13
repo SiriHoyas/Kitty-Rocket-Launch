@@ -35,8 +35,11 @@
     background-color: white;
     transition: bottom 10000ms;
 }
-
-.rocket.flying {
+body.body-state1 .rocket {
+    transition: none;
+}
+body.body-state3 .rocket,
+body.body-state4 .rocket {
     bottom: 1000px;
 }
 
@@ -63,7 +66,6 @@ body.body-state5 .state5 {display: block;}
     bottom: 0px;
 }
 a {
-
 
 }
 
